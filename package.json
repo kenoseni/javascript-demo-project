@@ -1,26 +1,14 @@
 {
-  "name": "javascript-demo-project",
+  "name": "minmax",
   "version": "1.0.0",
-  "description": "Basic JavaScript project for demonstration of programming concepts",
-  "main": "app/library.js",
+  "description": "function to write and test minmax",
+  "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha tests/tests.js"
+    "test": "jasmine JASMINE_CONFIG_PATH=test/config/jasmine.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Philipeano/javascript-demo-project.git"
-  },
-  "author": "Philip Newman",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Philipeano/javascript-demo-project/issues"
-  },
-  "homepage": "https://github.com/Philipeano/javascript-demo-project#readme",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
-  }
+  "author": "",
+  "license": "ISC"
 }
